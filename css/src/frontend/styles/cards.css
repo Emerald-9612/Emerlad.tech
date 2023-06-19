@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-family: "Nunito Semibold";
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.grid-item {
+    background-color:cornflowerblue;
+    text-align: center;
+}
+.main-grid div:nth-child(even){
+    background-color:cornsilk;
+    color: black;
+}
